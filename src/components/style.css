@@ -1,0 +1,44 @@
+.counter{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.counter .display{
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.button{
+ padding: 20px;
+ margin: 5px;
+ border: none;
+ border-radius: 10px;
+ color: white;
+ text-shadow: 2px 1px 3px hsla(0, 0%, 0%, 0.395);
+ font-weight: bold;
+
+}
+
+p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.red{
+  background-color: hsl(0, 91%, 61%);
+}
+.blue{
+  background-color: hsl(219, 100%, 53%);
+}
+.green{
+  background-color: hsl(138, 100%, 54%);
+}
